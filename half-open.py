@@ -1,7 +1,7 @@
 """
         Half-Open scanning (SYN-SCAN)
         Spectrum Development Team
-        Written in Python with Scapy module
+        Written in Python with Scapy module.
 """
 
 from scapy.all import *
