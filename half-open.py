@@ -11,4 +11,4 @@ dst_port = 80            # Destination port (80:HTTP)
 
 recv_pkt = sr1(IP(dst=dst_ip)/TCP(dport=dst_port,flags="S"))
 
-recv_pkt.show()
+recv_pkt.show()          # We used show() method to display packet response
